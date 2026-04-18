@@ -46,7 +46,8 @@ cd Cryptography_Toolkit
 g++ main.cpp -o toolkit
 ./toolkit
 
-📄 Note on Logging
-The history tracking feature generates a crypto_history.log file. 
-While testing via the online Replit demo, this file is temporary and cleared after each session. 
-To maintain a permanent audit trail, please clone the repository and run the project in a local environment.
+---
+
+> [!NOTE]
+> **Persistent Logging:** This toolkit generates a `crypto_history.log` file to track encryption activity.
+> When using the online demo, this file is volatile and resets after the session. For a permanent audit trail, it is recommended to clone the repository and run the project locally.
